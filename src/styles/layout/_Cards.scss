@@ -1,0 +1,64 @@
+.cardsContainer{
+  position: absolute;
+  width: 100%;
+
+  // center positioning
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 0 7%;
+}
+
+.cards{
+  // centers content
+  margin: 0 auto;
+  max-width: 1400px; // max with that all posters take on page
+}
+
+.cardContainer{
+  // display: flex;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+  padding: 1%;
+}
+
+.card{
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.85);
+  transition: all .5s ease-in-out;
+  &:hover {
+    transform: scale(1.03);
+    transition: all .3s ease-in-out;
+  }
+}
+
+.posterImage{
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  align-items: center;
+}
+
+.cardTitle{
+  color: $limeGreen;
+  padding: 8px;
+  font-weight: bold;
+  font-family: $lato;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.text{
+  color: $lightGrey;
+}
+
+@media only screen and (max-width: 575px) {
+  .cardsContainer{
+    margin-top: 55px;
+  }
+}
+
+
+@media (max-width: 474px) {
+  .cardTitle{
+    font-size: 0.7em;
+  }
+}
