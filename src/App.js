@@ -13,7 +13,7 @@ export default function App () {
   const [searchbarText, setSearchbarText] = useState('')
   
   async function fetchStartPage() {
-    const response = await axios.get(`http://www.omdbapi.com/?s=star+wars&apikey=b4ce7e92`)
+    const response = await axios.get(`https://www.omdbapi.com/?s=star+wars&apikey=b4ce7e92`)
     setSearchRes(response.data.Search)
   }
   
@@ -41,7 +41,7 @@ export default function App () {
     console.log('value:' + value)
 
     if (value.length > 2) {
-      const url = `http://www.omdbapi.com/?s=${value}&apikey=b4ce7e92`
+      const url = `https://www.omdbapi.com/?s=${value}&apikey=b4ce7e92`
       axios.get(url).then(response => {
         setSearchRes(response.data.Search)
       })
