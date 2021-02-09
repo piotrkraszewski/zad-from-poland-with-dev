@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/zad-from-poland-with-dev/static/css/main.b025eb0a.chunk.css",
+    "main.js": "/zad-from-poland-with-dev/static/js/main.fac1d63a.chunk.js",
+    "main.js.map": "/zad-from-poland-with-dev/static/js/main.fac1d63a.chunk.js.map",
+    "runtime-main.js": "/zad-from-poland-with-dev/static/js/runtime-main.b6429ee8.js",
+    "runtime-main.js.map": "/zad-from-poland-with-dev/static/js/runtime-main.b6429ee8.js.map",
+    "static/js/2.b3cef95b.chunk.js": "/zad-from-poland-with-dev/static/js/2.b3cef95b.chunk.js",
+    "static/js/2.b3cef95b.chunk.js.map": "/zad-from-poland-with-dev/static/js/2.b3cef95b.chunk.js.map",
+    "index.html": "/zad-from-poland-with-dev/index.html",
+    "static/css/main.b025eb0a.chunk.css.map": "/zad-from-poland-with-dev/static/css/main.b025eb0a.chunk.css.map",
+    "static/js/2.b3cef95b.chunk.js.LICENSE.txt": "/zad-from-poland-with-dev/static/js/2.b3cef95b.chunk.js.LICENSE.txt",
+    "static/media/BgGreen.a17d9a1b.jpg": "/zad-from-poland-with-dev/static/media/BgGreen.a17d9a1b.jpg",
+    "static/media/no_image.2f8a70e1.png": "/zad-from-poland-with-dev/static/media/no_image.2f8a70e1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6429ee8.js",
+    "static/js/2.b3cef95b.chunk.js",
+    "static/css/main.b025eb0a.chunk.css",
+    "static/js/main.fac1d63a.chunk.js"
+  ]
+}
